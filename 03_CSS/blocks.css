@@ -1,0 +1,76 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Hannah Murray */
+#one {
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
+    width: 10em;
+
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    
+}
+
+/* Mark Twain*/
+#two {
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    width: 10em;
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* George Carlin*/
+#three {
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    width: 10em;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#four {
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    width: 10em;
+
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+
+#link {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#link a {
+    background-color: blue;
+    color: white;
+}

@@ -6,6 +6,7 @@ mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Dial the phone
 mysock.connect(('data.pr4e.org', 80))
 
+# Send a message
 cmd = 'GET http://data.pr4e.org/page1.htm HTTP/1.0\r\n\r\n'.encode()
 mysock.send(cmd)
 
