@@ -48,6 +48,8 @@ urlpatterns += [
     ),
 ]
 
+#http://127.0.0.1:8000/oauth/complete/github/
+
 # Switch to social login if it is configured - Keep for later
 try:
     from . import github_settings
